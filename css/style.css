@@ -277,6 +277,7 @@ body {
 .img-list-presentation {
   overflow: hidden;
   position: relative;
+  cursor: pointer;
 }
 .img-list-presentation:hover .overlay-presentation {
   transform: translate(0);
