@@ -260,9 +260,10 @@ body {
   height: 70px;
   position: absolute;
   opacity: 0.7;
-  transform: translate(370px);
+  bottom: 0;
+  left: 0;
+  right: 0;
   transition: transform 250ms ease-in;
-  color: #ffffff;
 }
 .text-presentation {
   font-weight: 700;
@@ -277,11 +278,8 @@ body {
 .img-list-presentation {
   overflow: hidden;
   position: relative;
-  cursor: pointer;
 }
-.img-list-presentation:hover .overlay-presentation {
-  transform: translate(0);
-}
+
 /*Team  Section */
 
 .team-section {
