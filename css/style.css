@@ -181,6 +181,42 @@ body {
   pointer-events: none;
   transform: scale(0.1);
 }
+
+.contact-text {
+  width: 550px;
+  height: 23px;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  padding: 38px;
+  color: #212121;
+  justify-content: center;
+}
+/*.name-label {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  padding: 4px;
+  letter-spacing: 0.01em;
+  color: #757575;
+  padding-left: 40px;
+} */
+
+/*Formular Section*/
+
+.booking-form {
+  display: flex;
+  flex-wrap: wrap;
+}
+.booking-form input {
+  flex: 1 0 100%;
+}
+.booking-form textarea {
+  flex: 1 0 100%;
+  padding: 7px;
+}
 /*Detailes Section */
 .description-icon {
   max-width: 1200px;
@@ -273,6 +309,7 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #ffffff;
+  padding: 10px;
 }
 
 .img-list-presentation {
