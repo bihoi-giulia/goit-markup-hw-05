@@ -194,28 +194,63 @@ body {
   color: #212121;
   justify-content: center;
 }
-/*.name-label {
-  font-weight: 400;
-  font-size: 12px;
-  line-height: 14px;
-  padding: 4px;
-  letter-spacing: 0.01em;
-  color: #757575;
-  padding-left: 40px;
-} */
 
 /*Formular Section*/
+.input-container {
+  width: 100%;
+  margin-bottom: 10px;
+}
 
-.booking-form {
-  display: flex;
-  flex-wrap: wrap;
+.input-field {
+  width: 448px;
+  height: 40px;
+  padding: 10px;
+  outline: none;
+  margin-top: 4px;
+  border: 1px solid rgba(33, 33, 33, 0.2);
 }
-.booking-form input {
-  flex: 1 0 100%;
+.input-field:focus {
+  border: 1px solid rgba(33, 150, 243, 1);
 }
-.booking-form textarea {
-  flex: 1 0 100%;
-  padding: 7px;
+.input-field:hover {
+  border: 1px solid rgba(33, 150, 243, 1);
+  cursor: pointer;
+}
+.label-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 14px;
+  /* identical to box height */
+  letter-spacing: 0.01em;
+  width: 33px;
+  height: 14px;
+  color: #757575;
+  padding: 4px;
+}
+.textarea-field {
+  width: 100%;
+
+  padding: 10px;
+  outline: none;
+  margin-top: 4px;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+}
+.textarea-field:focus {
+  border: 1px solid rgba(33, 150, 243, 1);
+}
+.textarea-field:hover {
+  border: 1px solid rgba(33, 150, 243, 1);
+  cursor: pointer;
+}
+.btn {
+  background-color: var(--highlight-color);
+  width: 200px;
+  height: 50px;
+  border: none;
+  color: var(--white-color);
+}
+.btn:hover {
+  cursor: pointer;
 }
 /*Detailes Section */
 .description-icon {

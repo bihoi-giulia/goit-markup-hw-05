@@ -28,25 +28,41 @@
           <p class="contact-text">
             Leave your information and we'll call you back
           </p>
-          <form class="booking-form">
-            <label class="">
-              Name
-              <input type="text" name="name" />
-            </label>
 
-            <label class="">
-              Telephone
-              <input type="tel" name="phone" />
-            </label>
-            <label class="">
-              Email
-              <input type="e-mail" name="e-mail" />
-            </label>
-            <label class="">
-              Comments
-              <textarea name="comments" placeholder="Enter the text"></textarea>
-            </label>
-            <button type="submit">Send</button>
+          <form
+            action="/action_page.php"
+            style="max-width: 500px; margin: auto"
+          >
+            <div class="input-container">
+              <label class="label-text" for="name ">Name</label><br />
+              <input class="input-field" type="text" name="name" />
+            </div>
+
+            <div class="input-container">
+              <label class="label-text" for="phone ">Telephone</label><br />
+              <input class="input-field" type="tel" name="tel" />
+            </div>
+
+            <div class="input-container">
+              <label class="label-text" for="e-mail ">E-mail</label><br />
+              <input class="input-field" type="e-mail" name="e-mail" />
+            </div>
+            <div class="input-container">
+              <label class="label-text"> Comments </label><br />
+              <textarea
+                class="textarea-field"
+                name="comments"
+                rows="5"
+                placeholder="Enter the text"
+              ></textarea>
+            </div>
+            <div>
+              <label>
+                <input type="checkbox" name="terms" />
+                I agree with the letter and accept the Terms and Conditions
+              </label>
+            </div>
+            <button type="submit" class="btn">Send</button>
           </form>
           <button class="close-modal" data-modal-close>X</button>
         </div>
