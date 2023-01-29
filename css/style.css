@@ -183,16 +183,13 @@ body {
 }
 
 .contact-text {
-  width: 550px;
-  height: 23px;
   font-weight: 700;
   font-size: 20px;
-  line-height: 23px;
-  text-align: center;
+  line-height: 1.16;
   letter-spacing: 0.03em;
-  padding: 38px;
-  color: #212121;
-  justify-content: center;
+  text-align: center;
+  margin-top: 57px;
+  color: rgba(33, 33, 33, 1);
 }
 
 /*Formular Section*/
