@@ -213,6 +213,11 @@ body {
 }
 
 /*Formular Section*/
+.icon-form {
+  width: 13px;
+  height: 13px;
+  position: absolute;
+}
 .input-container {
   width: 100%;
   margin-bottom: 10px;
