@@ -214,9 +214,14 @@ body {
 
 /*Formular Section*/
 .icon-form {
-  width: 13px;
-  height: 13px;
   position: absolute;
+  top: 50%;
+  left: 15px;
+  height: 15px;
+  width: 15px;
+  /* width: 13px;
+  height: 13px;
+  position: absolute;*/
 }
 .input-container {
   width: 100%;
@@ -226,10 +231,16 @@ body {
 .input-field {
   width: 448px;
   height: 40px;
-  padding: 10px;
+  padding-left: 40px;
   outline: none;
   margin-top: 4px;
   border: 1px solid rgba(33, 33, 33, 0.2);
+  /*width: 448px;
+  height: 40px;
+  padding: 10px;
+  outline: none;
+  margin-top: 4px;
+  border: 1px solid rgba(33, 33, 33, 0.2);*/
 }
 .input-field:focus {
   border: 1px solid rgba(33, 150, 243, 1);
@@ -239,15 +250,23 @@ body {
   cursor: pointer;
 }
 .label-text {
-  font-weight: 400;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  color: var(--description-color);
+  font-size: 12px;
+  line-height: 1.16;
+  letter-spacing: 0.01em;
+  position: relative;
+  /*font-weight: 400;
   font-size: 14px;
   line-height: 14px;
-  /* identical to box height */
+  /* identical to box height 
   letter-spacing: 0.01em;
   width: 33px;
   height: 14px;
   color: #757575;
-  padding: 4px;
+  padding: 4px;*/
 }
 .textarea-field {
   width: 100%;
