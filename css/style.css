@@ -174,6 +174,18 @@ body {
   position: absolute;
   top: 8px;
   right: 8px;
+  background-color: #ffffff;
+  align-items: center;
+  display: flex;
+  margin: auto;
+  margin-right: 8px;
+  justify-content: center;
+}
+.close-modal:hover {
+  color: var(--highlight-color);
+}
+.close-x {
+  fill: black;
 }
 .is-hidden {
   visibility: hidden;
@@ -181,7 +193,15 @@ body {
   pointer-events: none;
   transform: scale(0.1);
 }
-
+.check {
+  margin-top: 10px;
+  margin-right: 9px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+.terms {
+  color: rgba(117, 117, 117, 1);
+}
 .contact-text {
   font-weight: 700;
   font-size: 20px;
@@ -245,9 +265,18 @@ body {
   height: 50px;
   border: none;
   color: var(--white-color);
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin: auto;
+  margin-top: 30px;
 }
 .btn:hover {
   cursor: pointer;
+}
+.terms-color {
+  color: var(--highlight-color);
 }
 /*Detailes Section */
 .description-icon {

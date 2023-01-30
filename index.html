@@ -36,11 +36,11 @@
             <div class="input-container">
               <label class="label-text" for="name "
                 >Name<br />
-                <sgv>
+                <svg>
                   <use
                     href="./images/symbol-defs.svg#icon-person-black-18dp-1"
                   ></use>
-                </sgv>
+                </svg>
                 <input class="input-field" type="text" name="name" />
               </label>
             </div>
@@ -70,14 +70,20 @@
               </label>
             </div>
             <div>
-              <label>
-                <input type="checkbox" name="terms" />
-                I agree with the letter and accept the Terms and Conditions
+              <label class="terms">
+                <input class="check" type="checkbox" name="terms" />
+                I agree with the letter and accept the
+                <span class="terms-color"> Terms and Conditions</span>
               </label>
             </div>
             <button type="submit" class="btn">Send</button>
           </form>
           <button class="close-modal" data-modal-close>X</button>
+          <!--<sgv class="close-x">
+              <use
+                href="./images/symbol-defs.svg#icon-close-black-18dp-2-1"
+              ></use>
+            </sgv>-->
         </div>
       </div>
     </div>
