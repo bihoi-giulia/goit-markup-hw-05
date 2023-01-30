@@ -623,7 +623,8 @@ body {
   padding: 10px;
   outline: none;
   margin-top: 4px;
-  border: 1px solid rgba(33, 33, 33, 0.2);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  background-color: rgba(47, 48, 58, 1);
 }
 /*Portofolio HTML*/
 
